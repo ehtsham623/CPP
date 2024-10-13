@@ -5,13 +5,11 @@ public:
         for (int i = 0; i < n - 1; i++) {
             for (int j = i + 1; j < n; j++) {
                 if (nums[i] + nums[j] == target) {
-                    i;
-                    j;
                     return {i, j};
                 }
             }
         }
         return {}; 
-        //leethub3 working test
+        //leethub3
     }
 };
