@@ -91,7 +91,6 @@ int main()
 
     // exp
     // number n is prime or not
-
     int num = 47;
     bool isPrime = true;
     for (int i = 2; i * i <= num; i++)
@@ -103,6 +102,19 @@ int main()
         }
     }
     cout << (isPrime == 1 ? "prime number" : "not prime number") << endl;
+
+    // exp
+    // print stars
+    int line = 5;
+    int stars = 5;
+    for (int i = 1; i <= line; i++)
+    {
+        for (int j = 1; j <= stars; j++)
+        {
+            cout << "*";
+        }
+        cout << endl;
+    }
 }
 
 // to run add below line in terminal
