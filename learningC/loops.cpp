@@ -115,6 +115,17 @@ int main()
         }
         cout << endl;
     }
+    cout << " end exp" << endl;
+
+    // exp
+    // sum of n divisible by 3
+    int number = 3;
+    int sumOfNumbers = 0;
+    for (int i = 3; i <= number; i += 3)
+    {
+        sumOfNumbers += i;
+    }
+    cout << "sum is:" << sumOfNumbers << " end exp" << endl;
 }
 
 // to run add below line in terminal
