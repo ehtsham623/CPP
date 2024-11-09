@@ -3,6 +3,11 @@ using namespace std;
 
 void method()
 {
+    int n = 10;
+    for (int i = 0; i < n; i++)
+    {
+        cout << i << endl;
+    }
 }
 
 int main()
