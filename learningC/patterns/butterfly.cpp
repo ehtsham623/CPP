@@ -8,6 +8,7 @@ void method()
     {
         cout << i << endl;
     }
+    cout << "end" << endl;
 }
 
 int main()
