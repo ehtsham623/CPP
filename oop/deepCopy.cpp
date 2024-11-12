@@ -36,6 +36,8 @@ int main()
     *(a2.ptrSallery) = 2000;
     cout << "account details: " << a1.userName << " " << *a1.ptrSallery << endl;
     cout << "account details: " << a2.userName << " " << *a2.ptrSallery << endl;
+
+    delete a2.ptrSallery;
     return 0;
 }
 
