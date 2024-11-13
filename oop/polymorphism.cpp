@@ -26,6 +26,11 @@ public:
     {
         cout << "Parent class" << endl;
     }
+
+    virtual void hello()
+    {
+        cout << "hello from parent" << endl;
+    }
 };
 
 class Child : public Parent
@@ -34,6 +39,10 @@ public:
     void getInfo()
     {
         cout << "Child class" << endl;
+    }
+    void hello()
+    {
+        cout << "hello from child" << endl;
     }
 };
 int main()
@@ -44,6 +53,8 @@ int main()
     // runtime // method overriding
     Child c;
     c.getInfo();
+    // runtime // virtual
+    c.hello();
     return 0;
 }
 
