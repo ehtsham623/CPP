@@ -13,7 +13,7 @@ void method()
 
 int main()
 {
-
+    cout << "start" << endl;
     method();
 
     return 0;
